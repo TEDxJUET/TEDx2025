@@ -5,12 +5,12 @@ import { Facebook, Instagram, Linkedin, Twitter, Youtube, MessageCircle } from "
 
 export default function Footer() {
   return (
-    <footer className="bg-white text-black py-12 relative">
+    <footer className="bg-white text-black py-12 relative select-none">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
           <div className="md:col-span-6">
             <div className="flex items-center mb-4">
-              <span className="text-red-600 font-bold text-3xl">TEDx</span>
+              <span className="text-[#FD3A00] font-bold text-3xl">TED <sup>x</sup></span>
               <span className="text-black font-light text-3xl">JUET</span>
             </div>
             <p className="text-gray-600 text-sm mb-6">
@@ -125,6 +125,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li className="transform hover:translate-x-2 transition-transform duration-300">
+                <Link href="/team" className="hover:text-red-600 transition-colors flex items-center">
+                  <span className="mr-2 text-xs opacity-0 group-hover:opacity-100 transition-opacity">▶</span>
+                  Events
+                </Link>
+              </li>
+              <li className="transform hover:translate-x-2 transition-transform duration-300">
                 <Link href="/contact" className="hover:text-red-600 transition-colors flex items-center">
                   <span className="mr-2 text-xs opacity-0 group-hover:opacity-100 transition-opacity">▶</span>
                   Contact
@@ -143,7 +149,7 @@ export default function Footer() {
         <div className="mt-12 pt-6 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-600 text-sm">
-              © {new Date().getFullYear()} All rights reserved. • Made by TEDxJUET
+              © {new Date().getFullYear()} All rights reserved. • Made by TED<sup>x</sup>JUET
             </p>
             <div className="mt-4 md:mt-0">
               <Link href="/policies" className="text-gray-600 hover:text-red-600 text-sm">
