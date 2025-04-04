@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 export default function Navbar() {
 
-  const [bar,setbar] = useState(true);
+  const [bar,setbar] = useState(false);
 
   return (
     <nav className={` sm:h-[80px] sm:w-[100%]  sm:fixed sm:top-0 sm:z-50 sm:bg-[white] sm:flex sm:items-center sm:justify-between sm:select-none sm:flex-row ${bar=== true?'h-[100%] w-[100%] fixed z-50 bg-[white] bottom-0  flex justify-start items-center flex-col right-0 left-0':'h-[60px] fixed z-50 bg-[white] w-[100%]  flex justify-start items-center flex-col '} transition ease-in-out duration-600`}>
