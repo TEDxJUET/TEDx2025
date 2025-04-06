@@ -4,11 +4,7 @@ import Navbar from "@/components/Navbar";
 import Speaker_card from "@/components/Speaker_card";
 import "./globals.css";
 import { motion } from "framer-motion";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/autoplay';
-import 'swiper/css/effect-fade';
+
 
 
 const cardData = [
@@ -51,15 +47,15 @@ export default function Home() {
   return (
     <div >
       <Navbar/>
-      <section className="h-[700px] w-[100%] bg-[white] flex items-center justify-center strt select-none">
+      <section className="h-[100vh] w-[100%] bg-[white] flex items-center justify-center strt select-none">
        
-      <div className="text-container">
+    <div className="text-container">
     <div>TED <sup>x</sup> JUET</div>
     <div>Local, Independently organized event at JUET Guna.</div>
     <div>Goes beyond mere echoes</div>
     <div>Resonance</div>
     <div>Happening on Saturday, 3'rd May , 2025</div>
-</div>
+    </div>
       </section>
       <section className="h-[800px] w-[100%] bg-[#0D0D0D]"></section>
       <h1 className=" text-center text-[28px] font-[500] p-[20px]">2025 Speakers</h1>

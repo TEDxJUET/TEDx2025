@@ -131,47 +131,6 @@
 }
 
 
-@media only screen and (max-width:600px){
-
-    .wrapper {
-        width: 90%;
-        /* max-width: 1536px; */
-        margin-inline: auto;
-        top: 20px;
-        position: relative;
-        height: 300px;
-        margin-top: 5rem;
-        overflow: hidden;
-        /* mask-image: linear-gradient(
-          to right,
-          rgba(0, 0, 0, 0),
-          rgba(0, 0, 0, 1) 20%,
-          rgba(0, 0, 0, 1) 80%,
-          rgba(0, 0, 0, 0)
-        ); */
-      }
-      
-      @keyframes scrollLeft {
-        to {
-          left: -300px;
-        }
-      }
-      
-      .item {
-        width: 300px;
-        height: 300px;
-        background-color: gray;
-        border-radius: 6px;
-        position: absolute;
-        left: max(calc(300px * 8), 100%);
-        animation-name: scrollLeft;
-        animation-duration: 30s;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-      }
-      
-
-}
 
 
 /* //// */
@@ -191,7 +150,7 @@
 }
 
 .text-container > div {
-    animation: come2life linear 10s infinite;
+    animation: come2life linear 13s infinite;
     transform-origin: center center;
     opacity: 0;
     width: 250px;
@@ -254,4 +213,82 @@
         transform: scale3d(4,4,1) rotate(0.02deg);
         filter: blur(10px);
     }
+}
+
+
+
+
+
+/* /////// */
+
+@media only screen and (max-width:600px){
+
+  .wrapper {
+      width: 90%;
+      /* max-width: 1536px; */
+      margin-inline: auto;
+      top: 20px;
+      position: relative;
+      height: 300px;
+      margin-top: 5rem;
+      overflow: hidden;
+      /* mask-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 1) 20%,
+        rgba(0, 0, 0, 1) 80%,
+        rgba(0, 0, 0, 0)
+      ); */
+    }
+    
+    @keyframes scrollLeft {
+      to {
+        left: -300px;
+      }
+    }
+    
+    .item {
+      width: 300px;
+      height: 300px;
+      background-color: gray;
+      border-radius: 6px;
+      position: absolute;
+      left: max(calc(300px * 8), 100%);
+      animation-name: scrollLeft;
+      animation-duration: 30s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+
+    .text-container > div:nth-child(1) {
+      left: 30vw;
+      top: 30vh;
+      animation-delay: 0s;
+  }
+  
+  .text-container > div:nth-child(2) {
+      left: 30vw;
+      top: 30vh;
+      animation-delay: 4s;
+  }
+  
+  .text-container > div:nth-child(3) {
+      left: 30vw;
+      top: 50vh;
+      animation-delay: 8s;
+  }
+  
+  .text-container > div:nth-child(4) {
+      left: 30vw;
+      top: 70vh;
+      animation-delay: 6s;
+  }
+  
+  .text-container > div:nth-child(5) {
+      left: 30vw;
+      top: 70vh;
+      animation-delay: 2s;
+  }
+    
+
 }

@@ -95,7 +95,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="md:col-span-3">
+          <div className="md:col-span-3 md:block hidden">
             <h3 className="text-xl font-semibold mb-4 relative after:content-[''] after:absolute after:w-12 after:h-1 after:bg-red-600 after:-bottom-2 after:left-0">
               Site links
             </h3>
