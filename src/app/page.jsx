@@ -4,8 +4,8 @@ import Navbar from "@/components/Navbar";
 import Speaker_card from "@/components/Speaker_card";
 import "./globals.css";
 import { motion } from "framer-motion";
-
-
+import LeftAbout from "@/components/LeftAbout";
+import RightAbout from "@/components/RightAbout";
 
 const cardData = [
   { id: 1, title: 'Card 1', description: 'Description for Card 1' },
@@ -57,7 +57,17 @@ export default function Home() {
     <div>Happening on Saturday, 3'rd May , 2025</div>
     </div>
       </section>
-      <section className="h-[800px] w-[100%] bg-[#0D0D0D]"></section>
+
+      {/* About part */}
+      <section className="min-h-[600px] w-[100%] bg-[#0D0D0D] text-blue-50 overflow-hidden relative">
+        <div className="max-w-8xl mx-auto h-full">
+          <div className="grid md:grid-cols-2 min-h-[400px] md:min-h-[500px] h-full">
+            <LeftAbout/>
+            <RightAbout/>
+          </div>
+        </div>
+      </section>
+      
       <h1 className=" text-center text-[28px] font-[500] p-[20px]">2025 Speakers</h1>
       <motion.section className="min-h-[400px] w-[100%] bg-[white] spk flex items-center justify-center flex-wrap"
         variants={containerVariants}
