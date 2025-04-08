@@ -2,7 +2,7 @@ import React from 'react'
 
 function LeftAbout() {
   return (
-    <div className="relative h-full flex items-center justify-center overflow-hidden">
+    <div className="sm:relative  sm:h-full  sm:w-[100%] sm:flex sm:items-center sm:justify-center sm:overflow-hidden hidden">
               <div className="absolute inset-0">
                 <div className="absolute top-[10%] left-[20%] w-32 h-32 bg-gradient-to-r from-[#FF4500]/30 to-[#FF4500]/10 rounded-full blur-xl animate-pulse"></div>
                 <div
