@@ -59,7 +59,7 @@ export default function Home() {
       </section>
 
       {/* About part */}
-      <section className="min-h-[600px] w-[100%] bg-[#0D0D0D] text-blue-50 overflow-hidden relative">
+      <section className="min-h-[600px] w-[100%] bg-[#0D0D0D] text-blue-50 overflow-hidden relative select-none">
         <div className="max-w-8xl mx-auto h-full">
           <div className="grid md:grid-cols-2  min-h-[400px] md:min-h-[500px] h-full w-[100%]">
             <LeftAbout/>
