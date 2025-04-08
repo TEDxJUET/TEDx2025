@@ -6,38 +6,58 @@ function RightAbout() {
     const groups = [
         [
             {
-                icon: <CalendarIcon className="w-12 h-12 text-[#FF4500] mb-3" />,
+                icon: <CalendarIcon className="w-[200px] h-[200px] text-[#FF4500]  mb-3" />,
                 title: "ATTEND EVENT",
-                subtitle: "Join us on May 15th, 2025",
+                subtitle: "Join us on May 3rd, 2025",
+                half: false
             },
-            {
-                icon: <User className="w-12 h-12 text-[#FF4500] mb-3" />,
-                title: "ABOUT US",
-                subtitle: "Learn about our mission",
-            },
-            {
-                icon: <Volume2 className="w-12 h-12 text-[#FF4500] mb-3" />,
-                title: "BECOME A SPEAKER",
-                subtitle: "Share your ideas",
-            },
+            // {
+            //     icon: <User className="w-12 h-12 text-[#FF4500] mb-3" />,
+            //     title: "ABOUT US",
+            //     subtitle: "Learn about our mission",
+            //     half: true
+            // }
         ],
         [
             {
-                icon: <CalendarIcon className="w-12 h-12 text-[#FF4500] mb-3" />,
-                title: "ATTEND EVENT",
-                subtitle: "Join us on May 15th, 2025",
-            },
-            {
-                icon: <User className="w-12 h-12 text-[#FF4500] mb-3" />,
+                icon: <User className="w-[200px] h-[200px] text-[#FF4500] mb-3" />,
                 title: "ABOUT US",
                 subtitle: "Learn about our mission",
+                half: false
             },
+            // {
+            //     icon: <Volume2 className="w-12 h-12 text-[#FF4500] mb-3" />,
+            //     title: "BECOME A SPEAKER",
+            //     subtitle: "Share your ideas",
+            //     half: true
+
+            // }
+        ],
+        [
             {
-                icon: <Volume2 className="w-12 h-12 text-[#FF4500] mb-3" />,
+                icon: <Volume2 className="w-[200px] h-[200px] text-[#FF4500] mb-3" />,
                 title: "BECOME A SPEAKER",
                 subtitle: "Share your ideas",
-            },
+                half: false
+            }
         ],
+        // [
+        //     {
+        //         icon: <CalendarIcon className="w-12 h-12 text-[#FF4500] mb-3" />,
+        //         title: "ATTEND EVENT",
+        //         subtitle: "Join us on May 15th, 2025",
+        //     },
+        //     {
+        //         icon: <User className="w-12 h-12 text-[#FF4500] mb-3" />,
+        //         title: "ABOUT US",
+        //         subtitle: "Learn about our mission",
+        //     },
+        //     {
+        //         icon: <Volume2 className="w-12 h-12 text-[#FF4500] mb-3" />,
+        //         title: "BECOME A SPEAKER",
+        //         subtitle: "Share your ideas",
+        //     },
+        // ],
     ];
 
     const nextSlide = () => {
@@ -55,7 +75,7 @@ function RightAbout() {
     return (
         <div className="flex flex-col justify-center p-8 z-10 relative text-white">
             <div className="mt-18 transform transition-all duration-500">
-                <h2 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight">
+                <h2 className="text-2xl md:text-5xl font-bold mb-4 tracking-tight break-words text-wrap">
                     TEDx<span className="font-normal">JUET</span> 2025 <span className="text-[#FF4500]">will witness</span>
                 </h2>
                 <p className="text-lg md:text-xl font-bold uppercase tracking-wide mb-4">
@@ -66,28 +86,42 @@ function RightAbout() {
             </div>
 
             <div className="relative pt-4 pb-24">
-                <div className="w-full overflow-hidden">
+                <div className="w-[60%]  overflow-hidden">
                     <div 
                         className="flex transition-transform duration-500 ease-in-out"
-                        style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+                        style={{ transform: `translateX(-${currentSlide * 60}%)` }}
                     >
                         {groups.map((group, i) => (
-                            <div key={i} className="w-full flex-shrink-0">
-                                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <div key={i} className="w-[60%] flex-shrink-0 ">
+                                <div className="grid grid-cols-0 md:grid-cols-0  gap-6 ">
                                     {group.map((item, j) => (
-                                        <div
-                                            key={j}
-                                            className="bg-zinc-900 rounded-lg p-6 flex flex-col items-center justify-center relative overflow-hidden group hover:bg-zinc-800 transition-all duration-300 hover:shadow-lg hover:shadow-red-500/20 cursor-pointer h-40"
-                                        >
-                                            <div className="absolute inset-0 bg-gradient-to-br from-red-500/5 to-transparent"></div>
-                                            <div className="relative flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                                                {item.icon}
-                                            </div>
-                                            <span className="text-base md:text-lg text-center mt-2 font-bold group-hover:text-[#FF4500] transition-colors duration-300">
-                                                {item.title}
-                                            </span>
-                                            <p className="text-xs text-zinc-400 mt-1 text-center">{item.subtitle}</p>
-                                        </div>
+                                    //     <div
+                                    //     key={j}
+                                    //     className="bg-zinc-900 rounded-lg p-6 flex flex-col items-center justify-center relative overflow-hidden group hover:bg-zinc-800 transition-all duration-300 hover:shadow-lg hover:shadow-red-500/20 cursor-pointer h-90"
+                                    // >
+                                    //     <div className="absolute inset-0 bg-gradient-to-br from-red-500/5 to-transparent"></div>
+                                    //     <div className="relative flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    //         {item.icon}
+                                    //     </div>
+                                    //     <span className="text-base md:text-lg text-center mt-2 font-bold group-hover:text-[#FF4500] transition-colors duration-300">
+                                    //         {item.title}
+                                    //     </span>
+                                    //     <p className="text-xs text-zinc-400 mt-1 text-center">{item.subtitle}</p>
+                                    // </div>
+
+                                    <div
+                                    key={j}
+                                    className={item.half === false?"bg-zinc-900 rounded-lg p-6 flex flex-col w-[250px] sm:w-[300px] items-center justify-center relative overflow-hidden group hover:bg-zinc-800 transition-all duration-300 hover:shadow-lg hover:shadow-red-500/20 cursor-pointer sm:h-90 h-80":"bg-zinc-900  rounded-bl-lg rounded-tl-lg p-6 flex flex-col items-center justify-center relative overflow-hidden group hover:bg-zinc-800 transition-all duration-300 hover:shadow-lg hover:shadow-red-500/20 cursor-pointer h-90 w-[50%]"}
+                                >
+                                    <div className="absolute inset-0 bg-gradient-to-br from-red-500/5 to-transparent"></div>
+                                    <div className="absolute left-[-40px] top-[20px] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                        {item.icon}
+                                    </div>
+                                    <span className="text-base md:text-lg text-center absolute bottom-10 font-bold group-hover:text-[#FF4500] transition-colors duration-300">
+                                        {item.title}
+                                    </span>
+                                    <p className="text-xs text-zinc-400 mt-1 text-center absolute bottom-5">{item.subtitle}</p>
+                                </div>
                                     ))}
                                 </div>
                             </div>
@@ -95,7 +129,7 @@ function RightAbout() {
                     </div>
                 </div>
 
-                <div className="absolute -bottom-4 left-0 right-0 flex justify-center gap-2">
+                <div className="absolute bottom-11 left-3 flex justify-center gap-2">
                     {groups.map((_, index) => (
                         <button
                             key={index}
