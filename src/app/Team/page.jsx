@@ -9,6 +9,13 @@ import ProfileCard from '@/components/ProfileCard'
 
 import { motion } from "framer-motion";
 
+
+
+
+
+
+
+
 const containerVariants = {
   hidden: { opacity: 1 },
   visible: {
