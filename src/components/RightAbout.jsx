@@ -8,7 +8,7 @@ function RightAbout() {
     const groups = [
         [
             {
-                icon: <CalendarIcon className="w-[200px] h-[200px] text-[#FF4500]  mb-3" />,
+                icon: <CalendarIcon className="w-[200px] h-[200px] text-[#EB0028]  mb-3" />,
                 title: "ATTEND EVENT",
                 subtitle: "Join us on May 3rd, 2025",
                 half: false
@@ -17,7 +17,7 @@ function RightAbout() {
         ],
         [
             {
-                icon: <User className="w-[200px] h-[200px] text-[#FF4500] mb-3" />,
+                icon: <User className="w-[200px] h-[200px] text-[#EB0028] mb-3" />,
                 title: "ABOUT US",
                 subtitle: "Learn about our mission",
                 half: false
@@ -26,7 +26,7 @@ function RightAbout() {
         ],
         [
             {
-                icon: <Volume2 className="w-[200px] h-[200px] text-[#FF4500] mb-3" />,
+                icon: <Volume2 className="w-[200px] h-[200px] text-[#EB0028] mb-3" />,
                 title: "BECOME A SPEAKER",
                 subtitle: "Share your ideas",
                 half: false
@@ -51,12 +51,12 @@ function RightAbout() {
         <div className="flex flex-col justify-center p-8 z-10 relative text-white">
             <div className="mt-18 transform transition-all duration-500">
                 <h2 className="text-2xl md:text-5xl font-bold mb-4 tracking-tight break-words text-wrap">
-                    TEDx<span className="font-normal">JUET</span> 2025 <span className="text-[#FF4500]">will witness</span>
+                    TEDx<span className="font-normal">JUET</span> 2025 <span className="text-[#EB0028]">will witness</span>
                 </h2>
                 <p className="text-lg md:text-xl font-bold uppercase tracking-wide mb-4">
                     IDEAS WITH THE POTENTIAL TO
                     <br />
-                    <span className="text-[#FF4500]">CHANGE THE WORLD</span> WE LIVE IN!
+                    <span className="text-[#EB0028]">CHANGE THE WORLD</span> WE LIVE IN!
                 </p>
             </div>
 
@@ -84,7 +84,7 @@ function RightAbout() {
                                     <div className="absolute left-[-40px] top-[20px] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                                         {item.icon}
                                     </div>
-                                    <span className="text-base md:text-lg text-center absolute bottom-10 font-bold group-hover:text-[#FF4500] transition-colors duration-300">
+                                    <span className="text-base md:text-lg text-center absolute bottom-10 font-bold group-hover:text-[#EB0028] transition-colors duration-300">
                                         {item.title}
                                     </span>
                                     <p className="text-xs text-zinc-400 mt-1 text-center absolute bottom-5">{item.subtitle}</p>
@@ -102,7 +102,7 @@ function RightAbout() {
                             key={index}
                             onClick={() => setCurrentSlide(index)}
                             className={`w-2 h-2 rounded-full transition-all ${
-                                currentSlide === index ? "bg-[#FF4500] w-4" : "bg-gray-500"
+                                currentSlide === index ? "bg-[#EB0028] w-4" : "bg-gray-500"
                             }`}
                             aria-label={`Go to slide ${index + 1}`}
                         />

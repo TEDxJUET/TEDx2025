@@ -1,114 +1,97 @@
+
+
 "use client"
-import Footer from "@/components/Footer";
+import React from "react";
+import './globals.css';
 import Navbar from "@/components/Navbar";
-import Speaker_card from "@/components/Speaker_card";
-import "./globals.css";
-import { motion } from "framer-motion";
-import LeftAbout from "@/components/LeftAbout";
-import RightAbout from "@/components/RightAbout";
+import SplitText from "@/components/SplitText";
+import HeroSubtitle from "@/components/HeroSubtitle";
+import AnimatedTextContent from "@/components/AnimatedTextContent";
+import AnimatedTextContentSmall from '@/components/AnimatedTextContentSmall';
+import ProfileCard from "@/components/ProfileCard";
+import Footer from "@/components/Footer";
+import ImageSlider from "@/components/ImageSlider";
 
-const cardData = [
-  { id: 1, title: 'Card 1', description: 'Description for Card 1' },
-  { id: 2, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 3, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 4, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 5, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 6, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 7, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 7, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 7, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 7, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 7, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 7, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 7, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 7, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 7, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 7, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 7, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 7, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 7, title: 'Card 2', description: 'Description for Card 2' },
-  { id: 7, title: 'Card 2', description: 'Description for Card 2' },
-  // Add more cards as needed
-];
-
-
-const containerVariants = {
-  hidden: { opacity: 1 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.2, // Delay each child animation
-      delayChildren: 0.3, // Delay before animation starts
-    },
-  },
-};
-
-export default function Home() {
+function App() {
   return (
-    <div >
-      <Navbar/>
-      <section className="h-[100vh] w-[100%] bg-[white] flex items-center justify-center strt select-none">
-       
-    <div className="text-container">
-    <div>TED <sup>x</sup> JUET</div>
-    <div>Local, Independently organized event at JUET Guna.</div>
-    <div>Goes beyond mere echoes</div>
-    <div>Resonance</div>
-    <div>Happening on Saturday, 3'rd May , 2025</div>
-    </div>
-      </section>
-
-      {/* About part */}
-      <section className="min-h-[600px] w-[100%] bg-[#0D0D0D] text-blue-50 overflow-hidden relative select-none">
-        <div className="max-w-8xl mx-auto h-full">
-          <div className="grid md:grid-cols-2  min-h-[400px] md:min-h-[500px] h-full w-[100%]">
-            <LeftAbout/>
-            <RightAbout/>
+    <>
+      <Navbar />
+      <main>
+        <div className="hero-section">
+          <div className="hero-background">
+          </div>
+          <div className="title-subtitle">
+            <SplitText
+              text="RESONANCE."
+              className="hero-title"
+              delay={150}
+              animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+              animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+              easing="easeOutCubic"
+              threshold={0.2}
+              rootMargin="-50px"
+            />
+            <HeroSubtitle />
+            <div className="hero-links">
+              <button className="hero-btn">Get Passes!</button>
+              <div className="link-list">
+                <a href="https://www.google.com">Sponsorship</a>
+                <a href="https://www.google.com" className="ml-3">Brochure</a>
+              </div>
+            </div>
+            <div className="schedule text-white">3rd May 2025 - 15:00 Onwards</div>
+            <div className="address">
+              <div className="line1">Jaypee University of Engineering & Technology,</div>
+              <div className="line2">Guna, Madhya Pradesh - 473226.</div>
+            </div>
           </div>
         </div>
-      </section>
-      
-      <h1 className=" text-center text-[28px] font-[500] p-[20px]">2025 Speakers</h1>
-      <motion.section className="min-h-[400px] w-[100%] bg-[white] spk flex items-center justify-center flex-wrap"
-        variants={containerVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.2 }}
-      >
-      <Speaker_card/>
-      <Speaker_card/>
-      <Speaker_card/>
-      <Speaker_card/>
-      <Speaker_card/>
-      <Speaker_card/>
-      <Speaker_card/>
-      <Speaker_card/>
-      <Speaker_card/>
-      <Speaker_card/>
-      <Speaker_card/>
-      <Speaker_card/>
-      
-      </motion.section>
-
-     <section className="bg-[#0D0D0D] h-[520px] w-[100%] pst mt-[30px] sm:bg-[#0D0D0D] sm:h-[830px] sm:w-[100%] pst sm:mt-[30px]"> 
-
-    |<h1 className="text-[white] text-[28px] font-[600] mt-5 text-center">Ted <sup>x</sup> JUET <span className="text-[#FD3A00]">2023 Events</span></h1>
-
-<div className="wrapper">
-  <div className="item item1 "></div>
-  <div className="item item2 "></div>
-  <div className="item item3 "></div>
-  <div className="item item4 "></div>
-  <div className="item item5 "></div>
-  <div className="item item6 "></div>
-  <div className="item item7 "></div>
-  <div className="item item8 "></div>
-</div>
-
-
-     </section>
-
-    <Footer/>
-    </div>
+        <div className="section-light">
+          <AnimatedTextContent text="We witness profound social, communicational, ecological, economic, and technological changes. Through resonance, we explore how these shifts echo through individuals and communities. We aim to highlight the deep connections between these changes—and how each individual, through their actions and voice, becomes the resonance at the heart of transformation." />
+          <AnimatedTextContentSmall text="We want to highlight both the impact and the ripple effects that arise from these transformations—and why it's vital to voice them. Changes occur across many dimensions, resonating differently through people and places. The idea of Resonance captures and connects all these shifts, reflecting how both individuals and society echo and respond to change." />
+        </div>
+        <div className="section-image"></div>
+        <div className="section-dark">
+          <AnimatedTextContent text="Join inspiring speakers and over a hundred guests!" />
+          <div className="speaker-section">
+            <div className="title-bar">
+              <div className="title-heading">Our Speakers</div>
+              <div className="link-list"><a href="https://www.google.com">View Event Details</a></div>
+            </div>
+            <div className="speaker-cards">
+              <ProfileCard image="profile.png" name="Someone Interesting" occupation="Coming Soon" />
+              <ProfileCard image="profile.png" name="Someone Interesting" occupation="Coming Soon" />
+              <ProfileCard image="profile.png" name="Someone Interesting" occupation="Coming Soon" />
+              <ProfileCard image="profile.png" name="Someone Interesting" occupation="Coming Soon" />
+              <ProfileCard image="profile.png" name="Someone Interesting" occupation="Coming Soon" />
+              <ProfileCard image="profile.png" name="Someone Interesting" occupation="Coming Soon" />
+              <ProfileCard image="profile.png" name="Someone Interesting" occupation="Coming Soon" />
+            </div>
+          </div>
+        </div>
+        <div className="section-red">
+          <AnimatedTextContent text="TEDxJUET will take place on 5th May 2025, 15:00 onwards with an afterparty in the evening." />
+          <AnimatedTextContentSmall text="Fifteen speakers and one hundred guests will join us at Jaypee University of Engineering and Technology — including representatives from academic and creative communities, entrepreneurs closely connected with innovation and culture, and influential intellectuals from across India." />
+        </div>
+        <div className="section-light">
+          <AnimatedTextContent text="TEDxJUET-23 Photo Gallery" />
+          <div style={{ width: "100%" }}>
+            <ImageSlider />
+          </div>
+        </div>
+        <div className="section-dark">
+          <AnimatedTextContent text="Meet the passionate team behind the magic — a group of driven minds dedicated to crafting an unforgettable TEDxJUET experience!" />
+          <div className="speaker-section">
+            <div className="title-bar">
+              <div className="title-heading">Know Our Team</div>
+              <div className="link-list"><a href="/team">View Team</a></div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </>
   );
 }
+
+export default App;
