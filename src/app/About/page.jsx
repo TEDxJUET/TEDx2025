@@ -103,19 +103,7 @@ export default function AboutPage() {
     <div className="select-none bg-[#0B0B0B] text-white min-h-screen">
       <Navbar />
 
-      {/* <motion.div
-        initial="hidden"
-        animate="visible"
-        variants={fadeIn}
-        className="sm:h-[250px] sm:mt-[80px] sm:w-[100%] sm:flex sm:items-center sm:justify-start pst sm:bg-[#0D0D0D] h-[130px] mt-[60px] w-[100%] flex items-center justify-start pst bg-[#0D0D0D]"
-      >
-        <motion.h1
-          variants={fadeInUp}
-          className="text-[#FD3A00] sm:text-[35px] font-[600] relative sm:left-[150px] left-[30px] text-[25px]"
-        >
-          ABOUT US
-        </motion.h1>
-      </motion.div> */}
+    
       <div className="">
       <motion.section
         initial="hidden"
