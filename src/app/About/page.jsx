@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import '../../components/styles/ImageSlider.css'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -99,31 +100,19 @@ export default function AboutPage() {
   }, []);
 
   return (
-    <div className="select-none bg-white text-gray-800 min-h-screen">
+    <div className="select-none bg-[#0B0B0B] text-white min-h-screen">
       <Navbar />
 
-      <motion.div
-        initial="hidden"
-        animate="visible"
-        variants={fadeIn}
-        className="sm:h-[250px] sm:mt-[80px] sm:w-[100%] sm:flex sm:items-center sm:justify-start pst sm:bg-[#0D0D0D] h-[130px] mt-[60px] w-[100%] flex items-center justify-start pst bg-[#0D0D0D]"
-      >
-        <motion.h1
-          variants={fadeInUp}
-          className="text-[#FD3A00] sm:text-[35px] font-[600] relative sm:left-[150px] left-[30px] text-[25px]"
-        >
-          ABOUT US
-        </motion.h1>
-      </motion.div>
-
+    
+      <div className="">
       <motion.section
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
         variants={staggerContainer}
-        className="w-full py-16 px-4 sm:px-6 lg:px-8 bg-white"
+        className="w-full py-16 px-4 sm:px-6 lg:px-8 bg-[#0B0B0B] "
       >
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto mt-[60px]">
           <motion.div
             variants={staggerContainer}
             className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
@@ -131,15 +120,15 @@ export default function AboutPage() {
             <div>
               <motion.h2
                 variants={fadeInUp}
-                className="text-[#FD3A00] text-3xl sm:text-4xl font-bold mb-4"
+                className="text-[#ED1C24] text-3xl sm:text-4xl font-bold mb-4"
               >
                 ABOUT TED<sup>X</sup>
-                <span className="text-gray-800">JUET</span>
+                <span className="text-white">JUET</span>
               </motion.h2>
 
               <motion.h3
                 variants={fadeInUp}
-                className="text-gray-800 text-3xl sm:text-5xl font-bold mt-8 mb-8 leading-tight"
+                className="text-white text-3xl sm:text-5xl font-bold mt-8 mb-8 leading-tight"
               >
                 INNOVATING.
                 <br />
@@ -150,7 +139,7 @@ export default function AboutPage() {
 
               <motion.p
                 variants={fadeInUp}
-                className="text-gray-600 leading-relaxed text-lg"
+                className="text-[#bbb] leading-relaxed text-lg"
               >
                 TEDxJUET is a local, independently organized event at JUET Guna
                 that strives to recreate the unique experience found at TED,
@@ -162,7 +151,7 @@ export default function AboutPage() {
 
               <motion.p
                 variants={fadeInUp}
-                className="text-gray-600 leading-relaxed text-lg mt-4"
+                className="text-[#bbb] leading-relaxed text-lg mt-4"
               >
                 In the past we have successfully brought together people from
                 across the length and breadth of our country along with locals
@@ -174,7 +163,7 @@ export default function AboutPage() {
 
               <motion.p
                 variants={fadeInUp}
-                className="text-gray-600 leading-relaxed text-lg mt-4"
+                className="text-[#bbb] leading-relaxed text-lg mt-4"
               >
                 It is an event that aims to celebrate and propagate the power of
                 ideas among the denizens of the magnificent campus of JUET.
@@ -196,18 +185,18 @@ export default function AboutPage() {
                   alt="TEDxJUET"
                   width={500}
                   height={500}
-                  className="object-cover"
+                  className="object-cover carousel-image"
                 />
-                <div className="absolute inset-0 bg-gradient-to-tr from-[#FD3A00]/20 to-transparent"></div>
+                <div className="absolute inset-0 "></div>
               </motion.div>
             </motion.div>
           </motion.div>
           <motion.div variants={fadeInUp} className="flex justify-end mb-8">
             <Button
               href="#"
-              className="relative overflow-hidden px-8 py-5 rounded-full text-white bg-[#FD3A00] flex items-center group transition-all duration-300 shadow-md"
+              className="relative overflow-hidden px-8 py-5 rounded-md text-white mt-[30px] bg-[#ED1C24] flex items-center group transition-all duration-300 shadow-md"
             >
-              <span className="relative z-10 transition-colors duration-300 group-hover:text-[#FD3A00] flex items-center gap-2">
+              <span className="relative z-10 transition-colors duration-300 group-hover:text-[#ED1C24] flex items-center gap-2">
                 INTERESTED
                 <ArrowRight />
               </span>
@@ -218,7 +207,7 @@ export default function AboutPage() {
       </motion.section>
 
       <motion.section
-        className="w-full py-16 px-4 sm:px-6 lg:px-8 bg-gray-50"
+        className="w-full py-16 px-4 sm:px-6 lg:px-8 bg-[#0B0B0B]"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
@@ -227,14 +216,14 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <motion.div
             variants={itemVariants}
-            className="text-[#FD3A00] uppercase text-sm sm:text-base tracking-wider mb-2 font-semibold"
+            className="text-[#ED1C24] uppercase text-sm sm:text-base tracking-wider mb-2 font-semibold"
           >
             CONFERENCE DATE - MAY 3RD, 2025
           </motion.div>
 
           <motion.h2
             variants={itemVariants}
-            className="text-2xl sm:text-4xl font-bold mb-12 text-gray-800"
+            className="text-2xl sm:text-4xl font-bold mb-12 text-[#fff]"
           >
             COUNT EVERY SECOND
             <br />
@@ -253,10 +242,10 @@ export default function AboutPage() {
                 key={index}
                 variants={itemVariants}
                 whileHover={{ scale: 1.05 }}
-                className="bg-white border border-gray-200 rounded-lg p-4 sm:p-6 flex flex-col items-center justify-center shadow-md hover:shadow-lg transition-shadow"
+                className="bg-[#1B1B1B]  rounded-lg p-4 sm:p-6 flex flex-col items-center justify-center shadow-md hover:shadow-lg transition-shadow"
               >
                 <motion.div
-                  className="text-4xl sm:text-6xl font-bold text-gray-800"
+                  className="text-4xl sm:text-6xl font-bold text-[#EB0028]"
                   animate={
                     item.label === "Seconds" ? { scale: [1, 1.05, 1] } : {}
                   }
@@ -276,16 +265,18 @@ export default function AboutPage() {
           </div>
 
           <div className="mt-12 text-center">
-            <p className="text-gray-600 text-lg">
+            <p className="text-[#bbb] text-lg">
               Join us for an unforgettable experience at TEDxJUET on May 3rd,
               2025.
             </p>
-            <p className="text-[#FD3A00] font-medium mt-2">
+            <p className="text-[#ED1C24] font-medium mt-2">
               Mark your calendars and stay tuned for more updates!
             </p>
           </div>
         </div>
       </motion.section>
+
+      </div>
 
       <Footer />
     </div>
