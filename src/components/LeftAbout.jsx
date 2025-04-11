@@ -2,8 +2,8 @@ import React from 'react'
 
 function LeftAbout() {
   return (
-    <div className="sm:relative  sm:h-full  sm:w-[100%] sm:flex sm:items-center sm:justify-center sm:overflow-hidden hidden">
-              <div className="absolute inset-0">
+    <div className="sm:relative  sm:h-full  sm:w-[100%] sm:flex sm:items-center sm:justify-center sm:overflow-hidden  w-[100%] h-[250px]">
+              {/* <div className="absolute inset-0">
                 <div className="absolute top-[10%] left-[20%] w-32 h-32 bg-gradient-to-r from-[#FF4500]/30 to-[#FF4500]/10 rounded-full blur-xl animate-pulse"></div>
                 <div
                   className="absolute bottom-[15%] right-[25%] w-40 h-40 bg-gradient-to-l from-[#FF4500]/20 to-[#FF4500]/5 rounded-full blur-xl animate-pulse"
@@ -62,7 +62,9 @@ function LeftAbout() {
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 border-2 border-dashed border-[#FF4500]/20 rounded-full animate-[spin_20s_linear_infinite]"></div>
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 border border-[#FF4500]/10 rounded-full animate-[spin_30s_linear_infinite_reverse]"></div>
                 </div>
-              </div>
+              </div> */}
+
+              <img src="section-image.png" className='sm:h-[60%] sm:w-[90%] h-[250px] w-[100%] bg-cover' alt="" />
             </div>
   )
 }
