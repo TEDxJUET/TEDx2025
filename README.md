@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [TedxJUET](https://nextjs.org) project bootstrapped with [`TedxJUET`](https://nextjs.org/docs/app/api-reference/cli/TedxJUET).
 
 ## Getting Started
 
