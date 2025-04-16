@@ -5,12 +5,12 @@ import Footer from '@/components/Footer'
 import Speaker_card from '@/components/Speaker_card'
 import "../globals.css"
 import AnimatedTextContent from '@/components/AnimatedTextContent'
-import ProfileCard from '@/components/ProfileCard'
+import Teamcard from '@/components/TeamCard'
 
 import { motion } from "framer-motion";
 
 
-
+import {team} from '../../Team'
 
 
 
@@ -41,13 +41,11 @@ function page() {
               <div className="link-list"><a href="https://www.google.com">View Event Details</a></div>
             </div>
             <div className="speaker-cards">
-              <ProfileCard image="profile.png" name="Someone Interesting" occupation="Coming Soon" />
-              <ProfileCard image="profile.png" name="Someone Interesting" occupation="Coming Soon" />
-              <ProfileCard image="profile.png" name="Someone Interesting" occupation="Coming Soon" />
-              <ProfileCard image="profile.png" name="Someone Interesting" occupation="Coming Soon" />
-              <ProfileCard image="profile.png" name="Someone Interesting" occupation="Coming Soon" />
-              <ProfileCard image="profile.png" name="Someone Interesting" occupation="Coming Soon" />
-              <ProfileCard image="profile.png" name="Someone Interesting" occupation="Coming Soon" />
+              {team.map((item, index)=>(
+
+              <Teamcard key={index} image="profile.png" name={item.name} post={item.post}  team={item.team}/>
+              ))}
+           
             </div>
           </div>
         </div>
