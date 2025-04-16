@@ -27,6 +27,9 @@ const Navbar = () => {
   const navigate_team = () =>{
     router.push('/Team')
   }
+  const navigate_event = () =>{
+    router.push('/Event')
+  }
 
   return (
     <nav className="navbar select-none">
@@ -44,8 +47,8 @@ const Navbar = () => {
         <li onClick={navigate_about} className={pathname ==='/About'?'text-[#EB0028]':'hover:text-[#EB0028]'}>About</li>
         <li onClick={navigate_speaker} className={pathname ==='/Speaker'?'text-[#EB0028]':'hover:text-[#EB0028]'}>Speakers</li>
         <li onClick={navigate_team} className={pathname ==='/Team'?'text-[#EB0028]':'hover:text-[#EB0028]'}>Team</li>
-        <li className={pathname ==='/Event'?'text-[#EB0028]':'hover:text-[#EB0028]'}>Event</li>
-        <li className={pathname ==='/Contact'?'text-[#EB0028]':'hover:text-[#EB0028]'}>Contact Us</li>
+        <li onClick={navigate_event} className={pathname ==='/Event'?'text-[#EB0028]':'hover:text-[#EB0028]'}>Events</li>
+        {/* <li className={pathname ==='/Contact'?'text-[#EB0028]':'hover:text-[#EB0028]'}>Contact Us</li> */}
       </ul>
     </nav>
   );

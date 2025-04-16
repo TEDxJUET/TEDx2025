@@ -25,21 +25,21 @@ export default function Footer() {
             
               <Link
                 href="https://www.instagram.com/tedxjuet/"
-                className="bg-[#7a7a7a7a] hover:bg-red-600 hover:text-white p-2 rounded-full transition-colors duration-300 transform hover:scale-110"
+                className="bg-[#7a7a7a7a] text-[white] hover:bg-red-600 hover:text-white p-2 rounded-full transition-colors duration-300 transform hover:scale-110"
               >
                 <Instagram size={18} />
                 <span className="sr-only">Instagram</span>
               </Link>
               <Link
                 href="https://x.com/TEDxJUET"
-                className="bg-[#7a7a7a7a] hover:bg-red-600 hover:text-white p-2 rounded-full transition-colors duration-300 transform hover:scale-110"
+                className="bg-[#7a7a7a7a] text-[white] hover:bg-red-600 hover:text-white p-2 rounded-full transition-colors duration-300 transform hover:scale-110"
               >
                 <Twitter size={18} />
                 <span className="sr-only">Twitter</span>
               </Link>
               <Link
                 href="https://www.linkedin.com/company/tedxjuet/"
-                className="bg-[#7a7a7a7a] hover:bg-red-600 hover:text-white p-2 rounded-full transition-colors duration-300 transform hover:scale-110"
+                className="bg-[#7a7a7a7a] text-[white] hover:bg-red-600 hover:text-white p-2 rounded-full transition-colors duration-300 transform hover:scale-110"
               >
                 <Linkedin size={18} />
                 <span className="sr-only">LinkedIn</span>
@@ -81,11 +81,11 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="md:col-span-3 md:block hidden">
-            <h3 className="text-xl text-[white] font-semibold mb-4 relative after:content-[''] after:absolute after:w-12 after:h-1 after:bg-red-600 after:-bottom-2 after:left-0">
+          <div className="md:col-span-3 md:flex md:items-start md:justify-start md:flex-col hidden">
+            <h3 className="text-xl text-[white] ml-5 font-semibold mb-4 relative after:content-[''] after:absolute after:w-12 after:h-1 after:bg-red-600 after:-bottom-2 after:left-0">
               Site links
             </h3>
-            <ul className="space-y-2 text-[#bbb]">
+            <ul className="space-y-2 text-[#bbb] ">
               <li className="transform hover:translate-x-2 transition-transform duration-300">
                 <Link href="/" className="hover:text-red-600 transition-colors flex items-center">
                   <span className="mr-2 text-xs opacity-0 group-hover:opacity-100 transition-opacity">▶</span>
@@ -116,18 +116,8 @@ export default function Footer() {
                   Events
                 </Link>
               </li>
-              <li className="transform hover:translate-x-2 transition-transform duration-300">
-                <Link href="#" className="hover:text-red-600 transition-colors flex items-center">
-                  <span className="mr-2 text-xs opacity-0 group-hover:opacity-100 transition-opacity">▶</span>
-                  Contact
-                </Link>
-              </li>
-              <li className="transform hover:translate-x-2 transition-transform duration-300">
-                <Link href="#" className="hover:text-red-600 transition-colors flex items-center">
-                  <span className="mr-2 text-xs opacity-0 group-hover:opacity-100 transition-opacity">▶</span>
-                  Register
-                </Link>
-              </li>
+            
+             
             </ul>
           </div>
         </div>
@@ -137,11 +127,11 @@ export default function Footer() {
             <p className="text-[#bbb] text-sm">
               © {new Date().getFullYear()} All rights reserved. • Made by TED<sup>x</sup>JUET
             </p>
-            <div className="mt-4 md:mt-0">
+            {/* <div className="mt-4 md:mt-0">
               <Link href="/policies" className="text-[#bbb] hover:text-red-600 text-sm">
                 • Policies & Terms
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
