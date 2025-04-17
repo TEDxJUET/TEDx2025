@@ -3,121 +3,130 @@ const team = [
       "name": "Hardik Sharma",
       "post": "Organizer",
       "team": "",
-      "in_url":"",
-      "img": ""
+      "in_url":"https://www.linkedin.com/in/hardiksharma02/",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744915921/hardikimg_oftuke.jpg"
     },
     {
       "name": "Sapeksh Pareek",
       "post": "Advisor",
       "team": "Development/Curation",
-      "in_url":"",
-      "img": ""
+      "in_url":"https://linkedin.com/in/sapekshpareek",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907691/Photograph%20%28File%20responses%29/20240707_134333_-_SAPEKSH_PAREEK_wtbfms.jpg"
     },
     {
       "name": "Saket Bagdi",
       "post": "Advisor",
       "team": "Logistics",
+      "in_url":"http://www.linkedin.com/in/saket-b-611457135",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907725/Photograph%20%28File%20responses%29/DSC06791_-_SAKET_BAGDI_ngzm56.jpg"
+    },
+    
+    {
+      "name": "Priya Jha",
+      "post": "Co-Organizer",
+      "team": "",
       "in_url":"",
       "img": ""
     },
-    
     {
       "name": "Kushagra Singh",
       "post": "Head",
       "team": "Designing",
-      "in_url":"",
-      "img": ""
+      "in_url":"https://www.linkedin.com/in/kushagra-singh-varanasi",
+      "img": "kushagra.jpg"
     },
     {
       "name": "Ojas Singhai",
       "post": "Head",
       "team": "Designing",
-      "in_url":"",
-      "img": ""
+      "in_url":"http://linkedin.com/in/ojas-singhai-1b890b1b2",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907517/Photograph%20%28File%20responses%29/DSC_0732_-_OJAS_SINGHAI_i5meiq.jpg"
     },
     {
       "name": "Arnold Philip",
       "post": "Head",
       "team": "Designing",
-      "in_url":"",
-      "img": ""
+      "in_url":"https://www.linkedin.com/in/arnold-philip-646808252",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907455/Photograph%20%28File%20responses%29/IMG-20240824-WA0018_-_ARNOLD_AJAY_PHILIP_ns4nx8.jpg"
     },
    
     {
       "name": "Vidit Tamrakar",
       "post": "Head",
       "team": "Development",
-      "in_url":"",
-      "img": ""
+      "in_url":"https://www.linkedin.com/in/vidittamrakar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907462/Photograph%20%28File%20responses%29/IMG-20250221-WA0052_-_VIDIT_TAMRAKAR_hr9uzp.jpg"
     },
 
-    {
-      "name": "Sajal Korde",
-      "post": "Head",
-      "team": "Curation",
-      "in_url":"",
-      "img": ""
-    },
+
     
     
     {
       "name": "Kanishka Agrawal",
       "post": "Head",
       "team": "Curation",
-      "in_url":"",
-      "img": ""
+      "in_url":"https://www.linkedin.com/in/kanishkaagrawal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907460/Photograph%20%28File%20responses%29/IMG-20241110-WA0138_-_KANISHKA_AGRAWAL_o3vpjy.jpg"
+    },
+
+    {
+      "name": "Sajal Korde",
+      "post": "Head",
+      "team": "Curation",
+      "in_url":"https://www.linkedin.com/in/sajal-korde-12271628a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744908530/Photograph%20%28File%20responses%29/IMG-20240211-WA0001_2_-_SAJAL_KORDE_yy35di.jpg"
     },
     
     {
       "name": "Anchit Dixit",
       "post": "Head",
       "team": "Curation",
-      "in_url":"",
-      "img": ""
+      "in_url":"https://www.linkedin.com/in/anchit-dixit-4399961b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744908538/Photograph%20%28File%20responses%29/IMG-20241124-WA0094_-_ANCHIT_DIXIT_enyt7z.jpg"
     },
 
     {
       "name": "Jahanvi Nigoniya",
       "post": "Head",
       "team": "Marketing",
-      "in_url":"",
-      "img": ""
+      "in_url":"https://www.linkedin.com/in/jahanvi-nigoniya",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744908527/Photograph%20%28File%20responses%29/IMG_20250415_091330_-_JAHANVI_NNIGONIYA_sftske.jpg"
     },
 
     {
       "name": "Yash Jain",
       "post": "Head",
       "team": "Marketing",
-      "in_url":"",
-      "img": ""
+      "in_url":"https://www.linkedin.com/in/yash-jain-03859b313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907695/Photograph%20%28File%20responses%29/20250303_002811_-_YASH_JAIN_sjchrh.jpg"
     },
     {
       "name": "Devesh Kumar",
       "post": "Head",
       "team": "Marketing",
-      "in_url":"",
-      "img": ""
+      "in_url":"https://www.linkedin.com/in/deveshkumar0902",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907684/Photograph%20%28File%20responses%29/_DSC1858_-_DEVESH_KUMAR_zc6g2o.jpg"
     },
     {
       "name": "Aditya vyas",
       "post": "Head",
       "team": "Logistics",
-      "in_url":"",
-      "img": ""
+      "in_url":"https://www.linkedin.com/in/aditya-vyas-1050921a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/c_fill,w_450,h_600/v1744908558/Photograph%20%28File%20responses%29/DSC_0626_-_ADITYA_VYAS_are3s4.jpg"
     },
     {
       "name": "Jayesh Bansal",
       "post": "Head",
       "team": "Logistics",
-      "in_url":"",
-      "img": ""
+      "in_url":"https://www.linkedin.com/in/jayesh-bansal-a99109166?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907482/Photograph%20%28File%20responses%29/IMG_5295_-_JAYESH_BANSAL_ismczp.jpg"
     },
     {
       "name": "Pulakita Maity ",
       "post": "Head",
       "team": "Hospitality",
-      "in_url":"",
-      "img": ""
+      "in_url":"https://www.linkedin.com/in/pulakita-maity-9098a924a/",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907664/Photograph%20%28File%20responses%29/IMG-20250203-WA0048_-_PULAKITA_MAITY_syi4xp.jpg"
     },
 
 
