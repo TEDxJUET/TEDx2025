@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./styles/ImageSlider.css";
 
 const images = [
-    "image1.JPG",
-    "image2.JPG",
+    "https://res.cloudinary.com/dvonarg5v/image/upload/v1744913790/image1_ohkz32.jpg",
+    "https://res.cloudinary.com/dvonarg5v/image/upload/v1744913785/image2_dnra1d.jpg",
     "image3.JPG",
-    "image4.JPG",
+    "https://res.cloudinary.com/dvonarg5v/image/upload/v1744913790/image4_mhdxst.jpg",
     "image5.JPG",
   ];
   

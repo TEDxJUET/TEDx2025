@@ -43,7 +43,7 @@ function page() {
             <div className="speaker-cards">
               {team.map((item, index)=>(
 
-              <Teamcard key={index} image="profile.png" name={item.name} post={item.post}  team={item.team}/>
+              <Teamcard key={index} image={item.img?item.img:'profile.png'} name={item.name} post={item.post}  team={item.team} inurl={item.in_url}/>
               ))}
            
             </div>
