@@ -25,8 +25,8 @@ const team = [
       "name": "Priya Jha",
       "post": "Co-Organizer",
       "team": "",
-      "in_url":"",
-      "img": ""
+      "in_url":"https://www.linkedin.com/in/priiyajhaa/",
+      "img": "priya.jpg"
     },
     {
       "name": "Kushagra Singh",
@@ -122,11 +122,26 @@ const team = [
       "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907482/Photograph%20%28File%20responses%29/IMG_5295_-_JAYESH_BANSAL_ismczp.jpg"
     },
     {
+      "name": "Utkarsh Upadhyay",
+      "post": "Head",
+      "team": "Hospitality",
+      "in_url":"https://www.linkedin.com/in/utkarsh-upadhyay-474866251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "img": "utkarsh.webp"
+    },
+    {
       "name": "Pulakita Maity ",
       "post": "Head",
       "team": "Hospitality",
       "in_url":"https://www.linkedin.com/in/pulakita-maity-9098a924a/",
       "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907664/Photograph%20%28File%20responses%29/IMG-20250203-WA0048_-_PULAKITA_MAITY_syi4xp.jpg"
+    },
+
+    {
+      "name": "Aditri Jain",
+      "post": "Head",
+      "team": "Sponsership",
+      "in_url":"https://www.linkedin.com/in/aditri-jain",
+      "img": "aditri.jpg"
     },
 
 
