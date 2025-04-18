@@ -16,7 +16,7 @@
   border-radius: 16px;
   margin-bottom: 16px;
   display: block;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   position: relative;
   z-index: 1;
 }
