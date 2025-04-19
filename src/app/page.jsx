@@ -48,7 +48,7 @@ function App() {
              
             </div>
           </div>
-          <div className="schedule text-white">3rd May 2025 - 15:00 Onwards</div>
+          <div className="schedule text-white">3rd May 2025 - 10:00 am Onwards</div>
           <div className="address">
             <div className="line1">Jaypee University of Engineering & Technology,</div>
             <div className="line2">Guna, Madhya Pradesh - 473226.</div>
@@ -79,7 +79,7 @@ function App() {
         </div>
       </div>
       <div className="section-red">
-        <AnimatedTextContent text="TEDxJUET will take place on 3rd May 2025, 15:00 onwards with an afterparty in the evening." />
+        <AnimatedTextContent text="TEDxJUET will take place on 3rd May 2025, 10:00 am onwards with an afterparty in the evening." />
         <AnimatedTextContentSmall text="Fifteen speakers and one hundred guests will join us at Jaypee University of Engineering and Technology — including representatives from academic and creative communities, entrepreneurs closely connected with innovation and culture, and influential intellectuals from across India." />
       </div>
       <div className="section-light">
