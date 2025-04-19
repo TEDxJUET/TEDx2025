@@ -38,7 +38,7 @@ function page() {
           <div className="speaker-section">
             <div className="title-bar">
               <div className="title-heading">Our Team</div>
-              <div className="link-list"><a href="https://www.google.com">View Event Details</a></div>
+              <div className="link-list"><a href="https://www.ted.com/tedx/events/62368">View Event Details</a></div>
             </div>
             <div className="speaker-cards">
               {team.map((item, index)=>(

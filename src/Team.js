@@ -55,7 +55,7 @@ const team = [
       "post": "Head",
       "team": "Development",
       "in_url":"https://www.linkedin.com/in/vidittamrakar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907462/Photograph%20%28File%20responses%29/IMG-20250221-WA0052_-_VIDIT_TAMRAKAR_hr9uzp.jpg"
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1745045020/prodev_cndb5k.png"
     },
 
 
@@ -66,7 +66,7 @@ const team = [
       "post": "Head",
       "team": "Curation",
       "in_url":"https://www.linkedin.com/in/kanishkaagrawal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907460/Photograph%20%28File%20responses%29/IMG-20241110-WA0138_-_KANISHKA_AGRAWAL_o3vpjy.jpg"
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1745045182/kan_vndopa.jpg"
     },
 
     {
@@ -105,10 +105,10 @@ const team = [
       "post": "Head",
       "team": "Marketing",
       "in_url":"https://www.linkedin.com/in/deveshkumar0902",
-      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907684/Photograph%20%28File%20responses%29/_DSC1858_-_DEVESH_KUMAR_zc6g2o.jpg"
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1745045560/_DSC1858_-_DEVESH_KUMAR_oescm3.jpg"
     },
     {
-      "name": "Aditya vyas",
+      "name": "Aditya Vyas",
       "post": "Head",
       "team": "Logistics",
       "in_url":"https://www.linkedin.com/in/aditya-vyas-1050921a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -141,7 +141,7 @@ const team = [
       "post": "Head",
       "team": "Sponsership",
       "in_url":"https://www.linkedin.com/in/aditri-jain",
-      "img": "aditri.jpg"
+      "img": ""
     },
 
 
