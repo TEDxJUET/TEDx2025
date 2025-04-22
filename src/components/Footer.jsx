@@ -111,7 +111,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li className="transform hover:translate-x-2 transition-transform duration-300">
-                <Link href="#" className="hover:text-red-600 transition-colors flex items-center">
+                <Link href="/Event" className="hover:text-red-600 transition-colors flex items-center">
                   <span className="mr-2 text-xs opacity-0 group-hover:opacity-100 transition-opacity">▶</span>
                   Events
                 </Link>
