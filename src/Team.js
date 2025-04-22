@@ -119,7 +119,7 @@ const team = [
       "post": "Head",
       "team": "Logistics",
       "in_url":"https://www.linkedin.com/in/jayesh-bansal-a99109166?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1744907482/Photograph%20%28File%20responses%29/IMG_5295_-_JAYESH_BANSAL_ismczp.jpg"
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1745345811/IMG_0938_pfb7qn.jpg"
     },
     {
       "name": "Utkarsh Upadhyay",
