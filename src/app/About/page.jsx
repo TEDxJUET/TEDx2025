@@ -8,6 +8,7 @@ import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import '../../components/styles/ImageSlider.css'
+import { useRouter } from "next/navigation";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -54,6 +55,7 @@ const staggerContainer = {
 };
 
 export default function AboutPage() {
+  const router = useRouter();
   const [timeLeft, setTimeLeft] = useState({
     months: 0,
     days: 0,
@@ -180,8 +182,8 @@ export default function AboutPage() {
                 transition={{ duration: 0.4 }}
                 className="relative w-full max-w-md aspect-square rounded-lg shadow-xl overflow-hidden transform hover:rotate-0 transition-transform duration-300"
               >
-                <Image
-                  src="/tedxAboutimg.png"
+                <img
+                  src="https://res.cloudinary.com/dvonarg5v/image/upload/v1744913758/tedxAboutimg_rnjwet.png"
                   alt="TEDxJUET"
                   width={500}
                   height={500}
@@ -191,9 +193,9 @@ export default function AboutPage() {
               </motion.div>
             </motion.div>
           </motion.div>
-          <motion.div variants={fadeInUp} className="flex justify-end mb-8">
+          <motion.div onClick={()=>{router.push('/Register')}} variants={fadeInUp} className="flex justify-end mb-8">
             <Button
-              href="#"
+             
               className="relative overflow-hidden px-8 py-5 rounded-md text-white mt-[30px] bg-[#ED1C24] flex items-center group transition-all duration-300 shadow-md"
             >
               <span className="relative z-10 transition-colors duration-300 group-hover:text-[#ED1C24] flex items-center gap-2">

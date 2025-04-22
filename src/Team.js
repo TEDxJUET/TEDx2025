@@ -137,6 +137,20 @@ const team = [
     },
 
     {
+      "name": "Utkarsh Mishra",
+      "post": "Head",
+      "team": "Sponsership",
+      "in_url":"https://www.linkedin.com/in/utkarsh-mishraa-929655211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1745328970/20250124_130125_-_UTKARSH_MISHRA_eyoijo.jpg"
+    },
+    {
+      "name": "Harsh Patel",
+      "post": "Head",
+      "team": "Sponsership",
+      "in_url":"https://www.linkedin.com/in/harshpatel0904/",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1745328938/WhatsApp_Image_2025-04-14_at_20.15.19_-_HARSH_PRAVINKUMAR_PATEL_th2yop.jpg"
+    },
+    {
       "name": "Aditri Jain",
       "post": "Head",
       "team": "Sponsership",
