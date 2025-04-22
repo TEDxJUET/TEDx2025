@@ -19,6 +19,10 @@ function App() {
     router.push('/Team')
   }
 
+  const navigate_register = () =>{
+    router.push('/Register')
+  }
+
   const navigate_brochure = () =>{
     router.push('/Brochure.pdf')
   }
@@ -42,7 +46,7 @@ function App() {
           />
           <HeroSubtitle />
           <div className="hero-links">
-            <button className="hero-btn">Get Passes!</button>
+            <button className="hero-btn" onClick={navigate_register}>Get Passes!</button>
             <div className="link-list">
               <a href="/Brochure.pdf" target="_blank">Sponsorship Brochure</a>
              
