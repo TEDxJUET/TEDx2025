@@ -121,6 +121,8 @@ const team = [
       "in_url":"https://www.linkedin.com/in/jayesh-bansal-a99109166?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1745345811/IMG_0938_pfb7qn.jpg"
     },
+
+
     {
       "name": "Utkarsh Upadhyay",
       "post": "Head",
@@ -128,6 +130,8 @@ const team = [
       "in_url":"https://www.linkedin.com/in/utkarsh-upadhyay-474866251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "img": "utkarsh.webp"
     },
+    
+   
     {
       "name": "Pulakita Maity ",
       "post": "Head",
@@ -137,23 +141,33 @@ const team = [
     },
 
     {
+      "name": "Jaya Kosta",
+      "post": "Head",
+      "team": "Hospitality",
+      "in_url":"https://www.linkedin.com/in/jaya-kosta/",
+      "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1745409340/IMG-jaya_jkhftq.jpg"
+    },
+
+   
+
+    {
       "name": "Utkarsh Mishra",
       "post": "Head",
-      "team": "Sponsership",
+      "team": "Sponsorship",
       "in_url":"https://www.linkedin.com/in/utkarsh-mishraa-929655211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1745328970/20250124_130125_-_UTKARSH_MISHRA_eyoijo.jpg"
     },
     {
       "name": "Harsh Patel",
       "post": "Head",
-      "team": "Sponsership",
+      "team": "Sponsorship",
       "in_url":"https://www.linkedin.com/in/harshpatel0904/",
       "img": "https://res.cloudinary.com/dvonarg5v/image/upload/v1745328938/WhatsApp_Image_2025-04-14_at_20.15.19_-_HARSH_PRAVINKUMAR_PATEL_th2yop.jpg"
     },
     {
       "name": "Aditri Jain",
       "post": "Head",
-      "team": "Sponsership",
+      "team": "Sponsorship",
       "in_url":"https://www.linkedin.com/in/aditri-jain",
       "img": ""
     },
